@@ -1,0 +1,8 @@
+{
+  "name": "lintReviewTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vibhorfb/lintReviewTest.git",
+  "author": "Vibhor Nikhra <vibhor.nikhra@freshbooks.com>",
+  "license": "MIT"
+}
