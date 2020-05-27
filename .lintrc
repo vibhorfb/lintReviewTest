@@ -1,0 +1,11 @@
+[files]
+ignore = public/*
+
+[tools]
+linters = eslint, commitcheck, rubocop
+
+[tool_eslint]
+config = ./.eslintrc_pr.js
+
+[tool_commitcheck]
+pattern = '(?:(?:[Ii]ssues?|[Ss]ees?|[Rr]ef(?:erences?|s?)|[Ff]ix(?:es)?|[Cc]loses?)\s+)?[a-zA-Z]+\-\d+'
